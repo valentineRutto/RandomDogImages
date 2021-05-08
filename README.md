@@ -24,7 +24,7 @@ This application consumes [DogApi](https://dog.ceo/dog-api/documentation/random)
 -ViewModel - store and manage UI-related data in a lifecycle conscious way.<br/>
 
 # ScreenShots 
-<img src="Screenshot_20210508_131530.png" width="260">&emsp;
+<img src="https://user-images.githubusercontent.com/10762793/117535770-f4972700-afff-11eb-9c30-bd66c7b2494f.png" width="260">&emsp;
 
 
 
