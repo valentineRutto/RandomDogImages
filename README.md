@@ -27,7 +27,7 @@ This application consumes [DogApi](https://dog.ceo/dog-api/documentation/random)
 
 # ScreenShots 
 <img src="https://user-images.githubusercontent.com/10762793/117535770-f4972700-afff-11eb-9c30-bd66c7b2494f.png" width="260">&emsp;
-<img src="![image](https://user-images.githubusercontent.com/10762793/117536995-ef89a600-b006-11eb-8e2d-0da5f15fbf00.png)" width="260">&emsp;
+<img src="https://user-images.githubusercontent.com/10762793/117536995-ef89a600-b006-11eb-8e2d-0da5f15fbf00.png" width="260">&emsp;
 
 
 
