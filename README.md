@@ -13,7 +13,7 @@ This application consumes [DogApi](https://dog.ceo/dog-api/documentation/random)
 -[Kotlin](https://developer.android.com/kotlin?gclid=CjwKCAjw9r-DBhBxEiwA9qYUpWK_ANJvWx6zBkFk-4XeP5a0dCxwyFZv_EeeqAcUx1K_Mj3gGkpdxRoCW9IQAvD_BwE&gclsrc=aw.ds)- a cross-platform, statically typed, general-purpose programming language with type inference.<br/>
 -Coroutines - perform background operations.<br/>
 -[Coil](https://coil-kt.github.io/coil/getting_started/) - a lightweight Image library.<br/>
--[Retrofit[(https://square.github.io/retrofit/) - A type-safe HTTP client for Android.<br/><br/>
+-[Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android.<br/><br/>
 -[GSON](https://github.com/google/gson) - A retrofit converter.<br/><br/>
 
 
