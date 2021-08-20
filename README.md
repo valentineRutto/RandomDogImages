@@ -15,6 +15,8 @@ This application consumes [DogApi](https://dog.ceo/dog-api/documentation/random)
 -[Coil](https://coil-kt.github.io/coil/getting_started/) - a lightweight Image library.<br/>
 -[Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android.<br/><br/>
 -[GSON](https://github.com/google/gson) - A retrofit converter.<br/><br/>
+-[Pallete API](https://developer.android.com/training/material/palette-colors) -  A support library that extracts prominent colors from images.<br/><br/>
+
 
 
 
@@ -25,6 +27,8 @@ This application consumes [DogApi](https://dog.ceo/dog-api/documentation/random)
 
 # ScreenShots 
 <img src="https://user-images.githubusercontent.com/10762793/117535770-f4972700-afff-11eb-9c30-bd66c7b2494f.png" width="260">&emsp;
+<img src="https://user-images.githubusercontent.com/10762793/117536995-ef89a600-b006-11eb-8e2d-0da5f15fbf00.png" width="260">&emsp;
+
 
 
 
