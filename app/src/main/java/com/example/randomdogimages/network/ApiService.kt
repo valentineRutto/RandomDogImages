@@ -1,9 +1,11 @@
 package com.example.randomdogimages.network
 
+import com.example.randomdogimages.network.data.BreedsResponse
+import com.example.randomdogimages.network.data.DogImatge
 import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("api/breeds/image/random")
-    suspend fun getRandomDogImage() : DogImatge
+    @GET("breeds")
+    suspend fun getDogBreeds() : BreedsResponse
 }

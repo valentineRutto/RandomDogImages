@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GDGbujumburaDemoCode">
-        <activity android:name="com.example.randomdogimages.MainActivity">
+        <activity
+            android:name=".ui.BreedsDetails"
+            android:exported="true" />
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

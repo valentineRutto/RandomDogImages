@@ -8,18 +8,20 @@ import kotlinx.coroutines.Dispatchers
 
 
 class MainViewModel(private val apiService: ApiService) : ViewModel() {
-    fun getRandomDogImage() = liveData(Dispatchers.IO) {
+
+
+    fun getBreeds() = liveData(Dispatchers.IO) {
 
         emit(Resource.loading(data = null))
         try {
-            emit(Resource.success(data = apiService.getRandomDogImage()))
+            emit(Resource.success(data = apiService.getDogBreeds()))
 
         } catch (exception: Exception) {
 
             emit(
                 Resource.error(
                     data = null,
-                    message = exception.message ?: "Unable to fetch random images"
+                    message = exception.message ?: "Unable to fetch breeds"
                 )
             )
 

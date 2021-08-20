@@ -1,4 +1,4 @@
-package com.example.randomdogimages.network
+package com.example.randomdogimages.network.data
 
 
 import com.google.gson.annotations.SerializedName
