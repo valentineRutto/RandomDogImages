@@ -15,6 +15,7 @@
             android:layout_marginTop="8dp"
             android:elevation="10dp"
             android:scaleType="fitXY"
+            android:contentDescription="@string/app_name"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

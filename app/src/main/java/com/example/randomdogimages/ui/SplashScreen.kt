@@ -20,7 +20,7 @@ class SplashScreen : AppCompatActivity() {
 
             override fun onTransitionChange(p0: MotionLayout?, p1: Int, p2: Int, p3: Float) {
             }
-
+//
             override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) {
                 startMainActivity()
 
@@ -35,6 +35,7 @@ class SplashScreen : AppCompatActivity() {
     fun startMainActivity(){
         val intent = Intent(this,MainActivity::class.java)
         startActivity(intent)
+        finish()
     }
 
 }

@@ -11,15 +11,13 @@
             motion:clickAction="toggle"
             motion:targetId="@+id/iv_dog_image">
         </OnClick>
-       <KeyFrameSet>
-       </KeyFrameSet>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
+
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
-
         <Constraint
             android:id="@+id/iv_dog_image"
             android:elevation="10dp"
