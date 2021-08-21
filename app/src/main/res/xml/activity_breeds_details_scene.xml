@@ -4,6 +4,7 @@
 
     <ConstraintSet android:id="@+id/start">
 
+
         <Constraint android:id="@+id/iv_dog_image"
             android:layout_height="match_parent"
             motion:layout_constraintStart_toStartOf="parent"

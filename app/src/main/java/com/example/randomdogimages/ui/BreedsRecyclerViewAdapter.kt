@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.api.load
+import coil.transform.CircleCropTransformation
 import com.example.randomdogimages.R
 import com.example.randomdogimages.databinding.RowBreedsBinding
 import com.example.randomdogimages.network.data.BreedUiData
@@ -35,7 +36,7 @@ class BreedsRecyclerViewAdapter(var breedClickListener:BreedsClickListener) :   
             binding.ivDogImage.load("${item.imageUrl}") {
                 crossfade(true)
                 placeholder(R.drawable.ic_launcher_background)
-//                transformations(CircleCropTransformation())
+                transformations(CircleCropTransformation())
             }
 
             binding.txtBreedName.text = item.name

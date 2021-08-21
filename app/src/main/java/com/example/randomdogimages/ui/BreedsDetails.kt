@@ -20,21 +20,20 @@ class BreedsDetails : AppCompatActivity() {
     lateinit var binding: ActivityBreedsDetailsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        window.requestFeature(Window.FEATURE_ACTIVITY_TRANSITIONS)
 
         binding = ActivityBreedsDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val breedId = intent.getIntExtra("breedId", 0)
         val breed = intent.getSerializableExtra("breed",) as BreedUiData
-
 
         binding.ivDogImage.load("${breed.imageUrl}") {
             crossfade(true)
             placeholder(R.drawable.ic_launcher_background)
         }
-        binding.txtBreedName.text = breed.name
-        binding.txtBredFor.text = breed.bredFor
+        binding.txtBreedName.text ="Name: "+ breed.name
+        binding.txtBredFor.text ="Bred For: "+ breed.bredFor
+        binding.txtLifeSpan.text = "LifeSpan: "+ breed.lifeSpan
+        binding.txtTemperement.text ="Temperament: "+ breed.temperament
 
     }
 

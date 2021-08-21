@@ -5,7 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_breeds_details.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/row_breeds.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_breeds.xml" value="0.25" />
         <entry key="app/src/main/res/layout/test_layout.xml" value="0.3375" />
       </map>
     </option>
